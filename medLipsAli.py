@@ -2,7 +2,7 @@
 print("""Questo è un esempio del gioco Mad Libs fatto da Sabrina!
 Creo una storia divertente.""")
 
-# Chiedi input all'utente
+# Chiedi input all'utente.
 nome = input("Inserisci un nome: ")
 print(nome.capitalize())
 cosa = input("inserisci una cosa: ")
