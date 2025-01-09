@@ -68,3 +68,15 @@ if numero % 7 == 0:
     flag = True
 if not flag:
     print(f"{numero} NON è un multiplo di 2,3,4 o 5 o 7")
+
+ris = "è un multiplo" if flag else "non è multiplo"
+print(risultato)
+
+# Operatore ternario
+print(f"""
+Operatore ternario - assegno un valore alla variabile messaggio
+in base ad una condizione sulla variabile numero
+""")
+
+messaggio = "numero è pari" if numero % 2 == 0 else "numero è dispari"
+print(messaggio)
